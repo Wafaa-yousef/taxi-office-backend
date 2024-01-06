@@ -1,0 +1,355 @@
+{
+	"info": {
+		"_postman_id": "2db90fbd-8cb7-4653-9627-0026f6932e7c",
+		"name": "Car",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Ali\",\r\n    \"email\":\"Ali73@gmail.com\",\r\n    \"password\":\"Ali73\",\r\n    \"car_number\":2144240,\r\n    \"phone\":\"\",\r\n    \"size\":\"normal\",\r\n    \"style\":\"2023M\",\r\n    \"officeId\":1\r\n    \r\n\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:890/api/car/addcar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "890",
+					"path": [
+						"api",
+						"car",
+						"addcar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n    \"email\":\"Ali73@gmail.com\",\r\n     \"password\":\"Ali73\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:890/api/car/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "890",
+					"path": [
+						"api",
+						"car",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "carInformation",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:890/api/car/carinfo/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "890",
+					"path": [
+						"api",
+						"car",
+						"carinfo",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "show cars in some office",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n    \"email\":\"maimkm\",\r\n    \"password\":\"mai\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:890/api/car/showcars/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "890",
+					"path": [
+						"api",
+						"car",
+						"showcars",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateEmail",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n  { \"email\":\"Ali00@gmail.com\",\r\n  \"password\":\"Ali00\"\r\n     \r\n  \r\n  }\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:890/api/car/updateEmail/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "890",
+					"path": [
+						"api",
+						"car",
+						"updateEmail",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updatePassword",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"password\":\"Ali00wafaa\",\r\n    \"oldpassword\":\"Ali00\"\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:890/api/car/updatepassword/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "890",
+					"path": [
+						"api",
+						"car",
+						"updatepassword",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateRate",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"rate\":5}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:890/api/car/updaterate/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "890",
+					"path": [
+						"api",
+						"car",
+						"updaterate",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updatePhone",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"phone\":\"998766578\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:890/api/car/updatephone/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "890",
+					"path": [
+						"api",
+						"car",
+						"updatephone",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateStatus",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"state\":\"available\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:890/api/car/updatestatus/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "890",
+					"path": [
+						"api",
+						"car",
+						"updatestatus",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateRate",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"rate\":3.4\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:890/api/car/updaterate/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "890",
+					"path": [
+						"api",
+						"car",
+						"updaterate",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete car",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:890/api/car/deleteCar/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "890",
+					"path": [
+						"api",
+						"car",
+						"deleteCar",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get car phone",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:890/api/car/getPhone/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "890",
+					"path": [
+						"api",
+						"car",
+						"getPhone",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

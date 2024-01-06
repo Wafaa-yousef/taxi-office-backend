@@ -1,0 +1,95 @@
+{
+	"info": {
+		"_postman_id": "53df6f42-c1a2-4515-8107-d79a2cef4fb9",
+		"name": "favoriteCars",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "show cars for client",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:890/api/fav/show/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "890",
+					"path": [
+						"api",
+						"fav",
+						"show",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add car to favorite for one client",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n        \"carId\":1,\r\n        \"clientId\":1\r\n    }\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:890/api/fav/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "890",
+					"path": [
+						"api",
+						"fav",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:890/api/fav/delete/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "890",
+					"path": [
+						"api",
+						"fav",
+						"delete",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

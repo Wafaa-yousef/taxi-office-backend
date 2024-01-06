@@ -1,0 +1,163 @@
+{
+	"info": {
+		"_postman_id": "e7fadec8-502e-4272-bd35-eff1b3aea040",
+		"name": "Request",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "addRequest",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"clientId\":1,\r\n    \"carId\":1,\r\n    \"location\":\"latakia\",\r\n    \"distination\":\"tartous\",\r\n    \"description\":\"I want comfortable seats \"\r\n    \r\n\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:890/api/office/delete/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "890",
+					"path": [
+						"api",
+						"office",
+						"delete",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "request info",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:890/api/request/getinfo/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "890",
+					"path": [
+						"api",
+						"request",
+						"getinfo",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update state",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"state\":\"canceled\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:890/api/request/updaterequest/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "890",
+					"path": [
+						"api",
+						"request",
+						"updaterequest",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sendDesciption",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"description\":\"I want also air-condition\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:890/api/request/senddiscription/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "890",
+					"path": [
+						"api",
+						"request",
+						"senddiscription",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "order state",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:890/api/request/showOrderState/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "890",
+					"path": [
+						"api",
+						"request",
+						"showOrderState",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "driver requests",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:890/api/request/showDriverRequests/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "890",
+					"path": [
+						"api",
+						"request",
+						"showDriverRequests",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

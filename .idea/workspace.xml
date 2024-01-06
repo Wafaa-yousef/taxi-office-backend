@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2467df6f-3ef3-4a7a-a3d7-731c7dd23bda" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/backend/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/car_controllers.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/car_controllers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/client_controllers.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/client_controllers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/database/models/car.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/models/car.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/database/models/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/models/client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/database/models/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/models/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="2aZl7WQvnjk8vkJaWUgPuPIXqRD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2467df6f-3ef3-4a7a-a3d7-731c7dd23bda" name="Changes" comment="" />
+      <created>1704533816932</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704533816932</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
